@@ -38,10 +38,10 @@ use serdect::serde::{de, ser, Deserialize, Serialize};
 #[cfg_attr(docsrs, doc(cfg(feature = "arithmetic")))]
 pub struct AffinePoint {
     /// x-coordinate
-    pub(crate) x: FieldElement,
+    pub x: FieldElement,
 
     /// y-coordinate
-    pub(crate) y: FieldElement,
+    pub y: FieldElement,
 
     /// Is this point the point at infinity? 0 = no, 1 = yes
     ///
